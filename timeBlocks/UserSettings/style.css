@@ -1,0 +1,24 @@
+settingspage {
+  height: 87vh;
+  width: 92vw;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 8vw;
+  justify-content: space-evenly;
+}
+accept, decline {
+    display: inline-block;
+    padding: 10px;
+}
+.modal-small-home{
+  height:50vh;
+  width: 90vw;
+  position: fixed !important;
+  top:15vh;
+  left:5vw;
+  z-index: 5;
+  border: solid black 2px;
+  background-color: white;
+}

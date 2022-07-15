@@ -1,0 +1,11 @@
+<settingsPage>
+  <notifications class="hidden"></notifications>
+  <getShareKey>Request acces to a friend's list</getShareKey>
+  <shareKeyContainer class="hidden">
+    <shareKeyString><input type='text'/>
+    <a href="">Send a SMS</a>
+  </shareKeyString>
+  </shareKeyContainer>
+  <googleCalOpts>Change Google Calendar</googleCalOpts>
+  <modal class="hidden modal-small"></modal>
+</settingsPage>

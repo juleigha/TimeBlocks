@@ -1,0 +1,40 @@
+html,     currentScreen {
+        background: #fafafa;
+        z-index: 3;
+        top: calc(10vh - 20px);
+        display: block;
+        position: fixed;
+        left:0;
+        width:99vw;
+    }
+mainNav{
+  visibility: hidden;
+  height: 0;
+}
+currentScreen {
+    position: fixed;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    top: 0;
+    left: 0;
+}
+signoption {
+    line-height: 6vh;
+    height: 6vh;
+    font-size: 1.2em;
+    display: block;
+    margin: 3vh;
+    cursor: pointer;
+}
+pagetitle {
+    display: block;
+    font-size: 1.5em;
+    margin: 40px;
+}
+passlogin {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}

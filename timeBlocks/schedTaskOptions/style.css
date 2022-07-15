@@ -1,0 +1,18 @@
+currentScreen {
+  position: fixed;
+  background: var(--drkGrey) !important;
+  z-index: 20 !important;
+  top: 0 !important;
+  width:100vw;
+  height: 100vh;
+}
+opts > * {
+    padding: 6vh;
+}
+opts {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

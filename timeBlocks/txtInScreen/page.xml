@@ -1,0 +1,8 @@
+<CntnrInput>
+  <txtInNewTask>
+    <label>Add list item:</label>
+    <input id="txtIn" type="text"/>
+  </txtInNewTask>
+  TO:
+  <btnChngGrp id="btnChngGrp"></btnChngGrp>
+</CntnrInput>
