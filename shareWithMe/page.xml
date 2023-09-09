@@ -1,0 +1,7 @@
+<settingsPage>
+  <getShareKey>Share my Key</getShareKey>
+  <shareKeyContainer class="hidden">
+    <shareKeyString><input type='text'/></shareKeyString>
+  </shareKeyContainer>
+
+</settingsPage>

@@ -1,0 +1,42 @@
+<modal class="hidden modal-small"></modal>
+<topControls>
+  <div id="cntrlCntnrHomeBtns" class="cntrlCntnr">
+    <input id="btnSelectHours" type="button" value="Select Hours">
+    <input id="btnSelectGroups" type="button" value="Select Group">
+    <input id="btnEditCatergories" type="button" value="Edit Categories">
+    <input id="btnEditDays" type="button" value="Edit Days">
+  </div>
+  <div id="ctrlCntnrBackBtns" class="hidden cntrlCntnr">
+    <input id="btnBckToMain" type="button" value="Back">
+  </div>
+  <div id="cntrlCntnrHourGroups" class="hidden cntrlCntnr">
+    <input id="btnDeselectAll" type="button" value="Deselect All">
+    <input id="btnGroupHours" type="button" value="Group Selected Hours">
+    <input id="btnUngroupHours" type="button" value="Ungroup Selected Hours">
+  </div>
+  <div id="cntrlCntnrCategories" class="hidden cntrlCntnr">
+    <input id="btnChangeGrpColor" type="button" value="Change Color">
+    <input id="btnAddToCategory" type="button" value="">
+    <input id="btnRemoveFromCategory" type="button" value="">
+    <select id="slctCategory" ></select>
+    <span  id="selectCatDisplay"></span>
+  </div>
+  <cssScrollBar><bar></bar></cssScrollBar>
+</topControls>
+<overflow>
+  <week>
+  </week>
+  <scrollCover></scrollCover>
+</overflow>
+<bottomControls>
+  <div id="btnScrollLeft"  value="">
+    <svg id="svgLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39.68 20.85"><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path id="laColor" d="M0,10.43C6.74,5.76,17.28.18,30.44,0a48.58,48.58,0,0,1,9.24.77V20.08a48.58,48.58,0,0,1-9.24.77C17.28,20.67,6.74,15.1,0,10.43Z" style="fill:#ebd083"/></g></g></svg>
+    <img src="images/left.svg">
+  </div>
+  <span id="dayName"></span>
+  <!-- <input id="btnDone" type="button" value="Done"> -->
+  <div id="btnScrollRight" value="">
+    <svg id="svgRight" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39.68 20.85"><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path id="raColor" d="M39.68,10.43C33,5.76,22.4.18,9.24,0A48.65,48.65,0,0,0,0,.77V20.08a48.65,48.65,0,0,0,9.24.77C22.4,20.67,33,15.1,39.68,10.43Z" style="fill:#ebd083"/></g></g></svg>
+    <img src="images/right.svg">
+  </div>
+</bottomControls>

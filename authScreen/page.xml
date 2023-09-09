@@ -1,0 +1,16 @@
+
+<pageTitle>Welcome to your Schedulizer</pageTitle>
+<passLogin class="hidden">
+  <error></error>
+  <label>Username:<input id="txtInEmail" type="text" value=""/></label>
+  <label>Password:<input id="txtInScrt" type="text" value=""/></label>
+  <label id="passConfirm">Confirm password:<input id="txtInScrt2" type="text" value=""/></label>
+</passLogin>
+<confirm class="hidden">
+  <btnLogin onClick="authScreen.lib.dbLogin()">Login</btnLogin>
+  <br>OR
+</confirm>
+<signOption  opt="0" onClick="googleSignIn()">Login With Google</signOption>
+<signOption  opt="1" onClick="authScreen.lib.showPassLogin()">Login to app</signOption>
+<signOption  opt="2" onClick="authScreen.lib.showPassLogin(true)">Make new user</signOption>
+<back class="hidden" onClick="authScreen.lib.back()">Back</back>

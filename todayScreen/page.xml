@@ -1,0 +1,12 @@
+<todayScreen>
+  <date></date>
+  <schedName>
+    <following></following>
+    <changeSched>change</changeSched>
+  </schedName>
+  <alldayEvents></alldayEvents>
+  <todayGroups></todayGroups>
+  <liveEventsBtn class="liveEventsBtn">Google calendars</liveEventsBtn>
+  <!-- <calModal class="hidden"></calModal> -->
+  <modal class="hidden modal-small"></modal>
+</todayScreen>

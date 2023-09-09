@@ -1,0 +1,31 @@
+/* html, currentScreen, lists {
+    display: flex;
+    overflow: visible;
+    position: fixed;
+    bottom: 100px;
+    left: 0;
+    width: 100vw;
+    height: 0;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+} */
+
+*{
+  user-select: none;
+}
+txtinnewtask {
+    padding-bottom: 40px;
+}
+cntnrinput {
+    height: 98vw;
+    width: 98vw;
+    position: relative;
+    top:4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+btnchnggrp {
+  margin-top: 40px;
+}
